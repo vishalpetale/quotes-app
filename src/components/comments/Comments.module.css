@@ -1,0 +1,8 @@
+.comments {
+  text-align: center;
+}
+
+.comments > button {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
