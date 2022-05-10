@@ -8,7 +8,7 @@ const QuoteForm = (props) => {
   const authorInputRef = useRef();
   const textInputRef = useRef();
 
-  const [isEntering, setIsEntering] = useState(false);
+  // const [isEntering, setIsEntering] = useState(false);
   const [isValid, setIsValid] = useState(true);
 
   function submitFormHandler(event) {
@@ -28,7 +28,7 @@ const QuoteForm = (props) => {
   }
 
   const handleFormFocus = () => {
-    setIsEntering(true);
+    // setIsEntering(true);
   };
   return (
     <>
